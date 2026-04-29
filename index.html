@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Earn Points Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #121212;
+      color: white;
+    }
+    .box {
+      background: #1e1e1e;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    button {
+      padding: 12px 25px;
+      background: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>💰 Earn Points</h1>
+
+<div class="box">
+  <h2>Points: <span id="points">0</span></h2>
+  <h3>Ads Left: <span id="adsLeft">5</span></h3>
+</div>
+
+<div class="box">
+  <button onclick="watchAd()">🎥 Watch Ad</button>
+  <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
